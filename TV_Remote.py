@@ -73,27 +73,36 @@ Cikmak icin 'q' ya basiniz
 
 while True:
     islem = input("Isleminizi Seciniz : ")
+
     if (islem == "q"):
         print("Programdan Cikiliyor")
         break
+
     if (islem == "1"):
         kumanda.tv_ac()
+
     elif (islem == "2"):
         kumanda.tv_kapat()
+
     elif (islem == "3"):
         print(kumanda)
+
     elif (islem == "4"):
         len(kumanda)
+
     elif (islem == "5"):
         kanallar = input("Eklemek istediginiz kanallari ',' ile ayirarak giriniz : ")
         eklenecekler = kanallar.split(",")
         for i in eklenecekler:
             kumanda.kanal_ekle(i)
         print("Kanal Listesi Basariyla Guncellendi...")
+
     elif (islem == "6"):
         kumanda.rastgele_kanal()
+
     elif (islem == "7"):
         kumanda.sesi_azalt_artir()
+        
     else:
         print("Gecersiz Islem")
 
