@@ -35,5 +35,7 @@ class Kumanda():
         return "TV Durumu : {}\nTV Ses : {}\nKanallar : {}\nSuanki Kanal : {}".format(self.tv_durum,self.tv_ses,self.kanal_listesi,self.kanal
 
     def __len__(self):
-        print()
+        return len(self.kanal_listesi)
+
+    
 
