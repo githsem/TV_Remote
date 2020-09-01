@@ -46,3 +46,25 @@ class Kumanda():
         self.kanal_listesi.append(kanal)
         print("Kanal Eklendi ",kanal)
 
+kumanda = Kumanda()
+print("""
+*******************************************
+        Televizyon Uygulamasi
+        
+Islemler
+--------
+
+1. Televizyonu Ac
+
+2. Televizyonu Kapat
+
+3. Televizyon Bilgileri
+
+4. Kanal Sayisini Ogren
+
+5. Kanal Ekle
+
+6. Rastgele Kanala Gec
+
+7. Sesi Azalt yada Artir      
+""")
