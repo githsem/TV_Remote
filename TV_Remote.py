@@ -88,7 +88,7 @@ while True:
         print(kumanda)
 
     elif (islem == "4"):
-        len(kumanda)
+        print(len(kumanda))
 
     elif (islem == "5"):
         kanallar = input("Eklemek istediginiz kanallari ',' ile ayirarak giriniz : ")
@@ -102,7 +102,7 @@ while True:
 
     elif (islem == "7"):
         kumanda.sesi_azalt_artir()
-        
+
     else:
         print("Gecersiz Islem")
 
