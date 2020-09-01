@@ -52,8 +52,7 @@ print("""
 *******************************************
         Televizyon Uygulamasi
         
-Islemler
---------
+Islemler:
 
 1. Televizyonu Ac
 
