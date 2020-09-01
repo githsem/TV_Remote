@@ -114,7 +114,7 @@ while True:
         kumanda.teletext()
 
     else:
-        print("Gecersiz Islem")
+        print("Gecersiz Islem...")
 
 
 
