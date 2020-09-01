@@ -37,5 +37,8 @@ class Kumanda():
     def __len__(self):
         return len(self.kanal_listesi)
 
-    
+    def rastgele_kanal(self):
+        rastgele = random(0,len(self.kanal_listesi)-1)
+        self.kanal = self.kanal_listesi[rastgele]
+        
 
