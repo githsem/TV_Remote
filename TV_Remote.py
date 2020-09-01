@@ -48,7 +48,7 @@ class Kumanda():
         print("Kanal Eklendi ",kanal)
 
     def teletext(self):
-        print(""""
+        print("""
         ---------TELETEXT---------
         """)
 
