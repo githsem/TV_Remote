@@ -92,7 +92,9 @@ while True:
         print("Kanal Listesi Basariyla Guncellendi...")
     elif (islem == "6"):
         kumanda.rastgele_kanal()
-    elif
+    elif (islem == "7"):
+        kumanda.sesi_azalt_artir()
+    else     
 
 
 
