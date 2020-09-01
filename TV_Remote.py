@@ -32,7 +32,7 @@ class Kumanda():
         self.tv_durum = "Acik"
 
     def __str__(self):
-        return "TV Durumu : {}\nTV Ses : {}\nKanallar : {}\nSuanki Kanal : {}".format(self.tv_durum,self.tv_ses,self.kanal_listesi,self.kanal
+        return "TV Durumu : {}\nTV Ses : {}\nKanallar : {}\nSuanki Kanal : {}".format(self.tv_durum,self.tv_ses,self.kanal_listesi,self.kanal)
 
     def __len__(self):
         return len(self.kanal_listesi)
@@ -94,7 +94,8 @@ while True:
         kumanda.rastgele_kanal()
     elif (islem == "7"):
         kumanda.sesi_azalt_artir()
-    else     
+    else:
+        print("Gecersiz Islem")
 
 
 
