@@ -47,6 +47,11 @@ class Kumanda():
         self.kanal_listesi.append(kanal)
         print("Kanal Eklendi ",kanal)
 
+    def teletext(self):
+        print(""""
+        ---------TELETEXT---------
+        """)
+
 kumanda = Kumanda()
 print("""
 *******************************************
@@ -67,6 +72,8 @@ Islemler:
 6. Rastgele Kanala Gec
 
 7. Sesi Azalt yada Artir
+
+8. Teletext
 
 Cikmak icin 'q' ya basiniz      
 """)
@@ -102,6 +109,9 @@ while True:
 
     elif (islem == "7"):
         kumanda.sesi_azalt_artir()
+
+    elif (islem == "8"):
+        kumanda.teletext()
 
     else:
         print("Gecersiz Islem")
