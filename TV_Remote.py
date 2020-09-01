@@ -40,5 +40,9 @@ class Kumanda():
     def rastgele_kanal(self):
         rastgele = random(0,len(self.kanal_listesi)-1)
         self.kanal = self.kanal_listesi[rastgele]
-        
+        print("Suanki Kanal : ",self.kanal)
+
+    def kanal_ekle(self,kanal):
+        self.kanal_listesi.append(kanal)
+        print("Kanal Eklendi ",kanal)
 
