@@ -1,6 +1,7 @@
 import random
 import time
 
+
 class Kumanda():
     def __init__(self,tv_durum="Kapali",tv_ses=0,kanal_listesi=["TRT"],kanal="TRT"):
         self.tv_durum = tv_durum
@@ -38,7 +39,7 @@ class Kumanda():
         return len(self.kanal_listesi)
 
     def rastgele_kanal(self):
-        rastgele = random(0,len(self.kanal_listesi)-1)
+        rastgele = random.randint(0,len(self.kanal_listesi)-1)
         self.kanal = self.kanal_listesi[rastgele]
         print("Suanki Kanal : ",self.kanal)
 
